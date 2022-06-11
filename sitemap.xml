@@ -2,19 +2,23 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://ShangTeHsieh.github.io/en/sitemap.xml</loc>
+    <loc>https://shangtehsieh.github.io/en/sitemap.xml</loc>
     
-      <lastmod>2022-06-05T14:19:28+08:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://ShangTeHsieh.github.io/zh-cn/sitemap.xml</loc>
+      <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://ShangTeHsieh.github.io/ar/sitemap.xml</loc>
+    <loc>https://shangtehsieh.github.io/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://shangtehsieh.github.io/ar/sitemap.xml</loc>
+    
+      <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     
   </sitemap>
   
