@@ -60,6 +60,34 @@
     <loc>https://shangtehsieh.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://shangtehsieh.github.io/tags/joanna/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shangtehsieh.github.io/tags/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shangtehsieh.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://shangtehsieh.github.io/tags/"
+                />
+  </url><url>
+    <loc>https://shangtehsieh.github.io/tags/%E5%9C%B0%E7%90%86/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shangtehsieh.github.io/p/%E9%AB%98%E4%B8%AD%E5%9C%B0%E7%90%86%E6%80%8E%E8%AE%80%E7%B5%A6%E6%89%BE%E5%9C%B0%E7%90%86%E8%AE%80%E6%9B%B8%E6%96%B9%E6%B3%95%E7%9A%84%E4%BD%A0/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shangtehsieh.github.io/tags/%E8%AE%80%E6%9B%B8/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://shangtehsieh.github.io/categories/%E8%AE%80%E6%9B%B8%E6%96%B9%E6%B3%95/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://shangtehsieh.github.io/page/</loc>
     <xhtml:link
                 rel="alternate"
@@ -70,18 +98,6 @@
                 rel="alternate"
                 hreflang="zh-tw"
                 href="https://shangtehsieh.github.io/page/"
-                />
-  </url><url>
-    <loc>https://shangtehsieh.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shangtehsieh.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://shangtehsieh.github.io/tags/"
                 />
   </url><url>
     <loc>https://shangtehsieh.github.io/search/</loc>
