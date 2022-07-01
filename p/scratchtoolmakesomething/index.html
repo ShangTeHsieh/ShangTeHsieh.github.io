@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh-tw" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='跟各位分享為何要學Scratch以及可以用Scratch做出什麼樣的東西～'><title>你所不知道的Scratch，獨特創意的起點，簡單想法大大可能～Scratch能學到什麼？實現你的獨特創意，不可不知的創造工具 </title>
+
+<link rel='canonical' href='https://shangtehsieh.github.io/p/scratchtoolmakesomething/'>
+
+<link rel="stylesheet" href="/scss/style.min.d9e0562edde3d2bdf9d3d81365095a29d062ddaaa5d671f22168e57dfdb18b4f.css"><meta property='og:title' content='你所不知道的Scratch，獨特創意的起點，簡單想法大大可能～Scratch能學到什麼？實現你的獨特創意，不可不知的創造工具'>
+<meta property='og:description' content='跟各位分享為何要學Scratch以及可以用Scratch做出什麼樣的東西～'>
+<meta property='og:url' content='https://shangtehsieh.github.io/p/scratchtoolmakesomething/'>
+<meta property='og:site_name' content='冒險者基地'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Scratch' /><meta property='article:tag' content='程式語言' /><meta property='article:tag' content='冰峰will' /><meta property='article:published_time' content='2019-09-14T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2019-09-14T00:00:00&#43;00:00'/><meta property='og:image' content='https://shangtehsieh.github.io/p/scratchtoolmakesomething/img1.png' />
+<meta name="twitter:title" content="你所不知道的Scratch，獨特創意的起點，簡單想法大大可能～Scratch能學到什麼？實現你的獨特創意，不可不知的創造工具">
+<meta name="twitter:description" content="跟各位分享為何要學Scratch以及可以用Scratch做出什麼樣的東西～"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://shangtehsieh.github.io/p/scratchtoolmakesomething/img1.png' />
+    <link rel="shortcut icon" href="img/favicon.png" />
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7XQFK7MD1"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-W7XQFK7MD1', { 'anonymize_ip': false });
+}
+</script>
+<link rel="icon" type="image/png" href="img/favicon.png">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切換選單">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_huaf50d582b145b7cbfc3a998d5ddfd1d7_34190_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">☕</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">冒險者基地</a></h1>
+            <h2 class="site-description">勇敢冒險吧！Try doing.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/CaiJimmy/hugo-theme-stack'
+                        target="_blank"
+                        title="GitHub"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com'
+                        target="_blank"
+                        title="Twitter"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主頁</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/%E9%97%9C%E6%96%BC/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>關於</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜尋</span>
+            </a>
+        </li>
+        
+
+    </ol>
+</aside>
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/scratchtoolmakesomething/">
+                <img src="/p/scratchtoolmakesomething/img1_hu3533caf04b258679d1fe702b98b280c3_597607_800x0_resize_box_3.png"
+                        srcset="/p/scratchtoolmakesomething/img1_hu3533caf04b258679d1fe702b98b280c3_597607_800x0_resize_box_3.png 800w, /p/scratchtoolmakesomething/img1_hu3533caf04b258679d1fe702b98b280c3_597607_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post 你所不知道的Scratch，獨特創意的起點，簡單想法大大可能～Scratch能學到什麼？實現你的獨特創意，不可不知的創造工具" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" >
+                程式語言
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/scratchtoolmakesomething/">你所不知道的Scratch，獨特創意的起點，簡單想法大大可能～Scratch能學到什麼？實現你的獨特創意，不可不知的創造工具</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            跟各位分享為何要學Scratch以及可以用Scratch做出什麼樣的東西～
+        </h3>
+        
+    </div>
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 14, 2019</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    閱讀時間: 1 分鐘
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    <h2 id="前言">前言</h2>
+<p>不知大家曾經國中小的時候，有沒有使用過Scratch？
+我大學剛好有一門必修需要用到這個軟體，
+才知道很多的同學都沒有使用過，或者是都太小看Scratch，
+這次就是要來跟各位分享，為何要學，以及可以用Scratch做出什麼樣的東西～</p>
+<h2 id="scratch是什麼有哪些特色">Scratch是什麼？有哪些特色？</h2>
+<p>Scratch我又稱作貓咪（因為他的形象圖示是一隻貓），
+是麻省理工媒體實驗室開發的一套，讓大家免費初步學習程式的平台，
+利用積木式程式，堆疊出指令，去製作控制或改變物件行動和變化，
+讓從未學過程式語言的人，也可以輕易上手。</p>
+<p>可經由Scratch學習到程式的架構，以及數學邏輯方面的運算，
+同時也能激發出創意性與思考能力；所以在學習其他程式語言之前，
+可以先利用Scratch理解程式方面的邏輯架構。</p>
+<p>擔心程式都是英文？
+Scratch提供了40多種語言版本，包括中文，所以不用擔心看不懂的問題。</p>
+<p>他也有提供許多的基本教學，所以一開始還完全搞不清楚的人，
+可以先試著從教學開始做起，而想看更多人的作品，
+也可在網站的首頁中看到其他人分享的作品，
+不只能打開其他人作品的程式碼查看，
+還能進行改編程式碼，來使得作品更加的多樣化等。</p>
+<p><img src="/p/scratchtoolmakesomething/img2.png"
+	width="1039"
+	height="481"
+	srcset="/p/scratchtoolmakesomething/img2_hu1b9f88760409fa6aab80ecb3c07ea05e_396314_480x0_resize_box_3.png 480w, /p/scratchtoolmakesomething/img2_hu1b9f88760409fa6aab80ecb3c07ea05e_396314_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="圖１：（大學作品之一）"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="216"
+		data-flex-basis="518px"
+	
+></p>
+<h2 id="從scratch中能增強思考能力創造力">從Scratch中能增強思考能力？創造力？</h2>
+<p>Scratch主要是將程式的架構，用積木式程式來呈現，
+所以多加使用及研究，就能增強程式邏輯。</p>
+<p>可以利用Scratch製作出如故事、遊戲、動畫等作品，
+在創造力及設計方面，都會有所幫助，
+雖然沒辦法做太複雜的設計，但這也能考驗製作者們，
+對有限的資源，該如何做出最好的作品。</p>
+<p>時常會有人說，這東西明明就是國中小在學的，
+但我覺得不管是什麼年齡都可以學習使用，
+長大後變得更聰明，那是否可以做出更困難的作品呢？
+（這是小編我大學做作品時所想的事情）</p>
+<p><img src="/p/scratchtoolmakesomething/gif1.gif"
+	width="585"
+	height="441"
+	srcset="/p/scratchtoolmakesomething/gif1_hu4045bbafc9d2a0f92acdb09bfbe25f24_1382699_480x0_resize_box.gif 480w, /p/scratchtoolmakesomething/gif1_hu4045bbafc9d2a0f92acdb09bfbe25f24_1382699_1024x0_resize_box.gif 1024w"
+	loading="lazy"
+	
+		alt="圖２：（大學作品之一，得了系上第一名的作品）(點擊上方圖片)"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="132"
+		data-flex-basis="318px"
+	
+></p>
+<h2 id="scratch不斷進步與改善的功能你知道哪些">Scratch不斷進步與改善的功能，你知道哪些?</h2>
+<p>從我國中小使用，到大學使用的，
+差距非常的大，差在哪呢？</p>
+<p>首先，先以我使用到的功能去詳細做說明～</p>
+<h3 id="函式">函式</h3>
+<p>這是我覺得在更新方面，最有幫助的一個功能，
+雖說在這裡的函式，只能使用在一個角色身上，
+但這已經解決之前沒辦法讓一個角色充當多個角色使用的問題。
+（這個部分，之後會再做更詳細的文章來做說明）</p>
+<h3 id="角色分身">角色分身</h3>
+<p>這算是舊功能，感覺上是有優化過了；
+分身在許多時候是非常好用的，例如搭配函式時，可以做出更多樣的變化，
+能使得使用者不須製作更多的角色，去應付重複的指令。</p>
+<h3 id="清單陣列">清單（陣列）</h3>
+<p>以前就有所謂的變數，但現在變數多增加了清單，
+如果有學過程式的人，會直接叫陣列，
+因為功能就跟陣列一樣，可以產生多個位置存放數值，
+缺點是只能使用一維陣列，這其實不是什麼太大的問題。</p>
+<h3 id="網頁版與離線版">網頁版與離線版</h3>
+<p>之前Scratch只能使用離線版，而至從有了網頁版，
+就能在網站製作作品，以及看到更多人的作品，
+如果對各個作品有興趣，還可以將程式匯出，
+在載入至離線版或是自己的網頁版中，
+而現在網頁版可以雲端存放作品，
+並將此作品分享給更多使用者看到。</p>
+<h3 id="更多的教學及資源">更多的教學及資源</h3>
+<p>新增了許多的素材，也有補充了一些動畫，
+而在教學方面是改變最多的，
+教學現在分成動畫、藝術、音樂、遊戲、故事，
+需要靈感時也能去教學裡式式一些專案，
+可能會帶給你更多的驚喜喔！～</p>
+<h3 id="更多擴充功能">更多擴充功能</h3>
+<p>擴充功能是可以新增額外的功能，
+例如連結搖桿或製作翻譯等功能，
+主要是運用在機器人或馬達等實體控制，
+讓Scratch連接更多實體設備，發展多元化的創作作品。</p>
+<p><img src="/p/scratchtoolmakesomething/img3.png"
+	width="1580"
+	height="827"
+	srcset="/p/scratchtoolmakesomething/img3_hu5bffc19f09f4e981bc89f1c2330442b8_297166_480x0_resize_box_3.png 480w, /p/scratchtoolmakesomething/img3_hu5bffc19f09f4e981bc89f1c2330442b8_297166_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="191"
+		data-flex-basis="458px"
+	
+></p>
+<h2 id="scratch這麼簡單還需要書嗎">Scratch這麼簡單，還需要書嗎？</h2>
+<p>需要，對於剛加入的使用者或是需要靈感的人，
+我推薦這本『程式設計邏輯訓練超簡單 Scratch 3初學特訓班』</p>
+<p><img src="/p/scratchtoolmakesomething/book1.png"
+	width="345"
+	height="434"
+	srcset="/p/scratchtoolmakesomething/book1_huc7f150814d84c160189d7ac84c9d7919_270748_480x0_resize_box_3.png 480w, /p/scratchtoolmakesomething/book1_huc7f150814d84c160189d7ac84c9d7919_270748_1024x0_resize_box_3.png 1024w"
+	loading="lazy"
+	
+		alt="博客來：https://www.books.com.tw/products/0010825027"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="79"
+		data-flex-basis="190px"
+	
+></p>
+<p>這本書的優點是不僅非常詳細說明各個Scratch中的功能，
+並且有專題可以供各位去實作練習，
+如果想要挑戰比較進階的部分，也有進階專題供各位去挑戰。</p>
+<h2 id="了解scratch的相關資料後有近一步的理解嗎">了解Scratch的相關資料後，有近一步的理解嗎?</h2>
+<p>還覺得這是個只有國中小能使用的軟體嗎？
+如果認真研究及創作，也是可以做出非常有特色的作品，
+而不管在做任何事之前，都需要把基礎學好，
+所以鍛鍊自己的基本功也是非常重要的，
+由其是要寫程式的人，可以增進自己的邏輯能力，
+使未來在編寫程式時，如何使用會較為精簡方便。</p>
+<p>要如何創作屬於自己的作品？
+那就要看你們想創作怎樣的作品拉！
+小編我之後會發布一些複雜的運用方法～
+如果想對Scratch有更多的了解，
+或是想要看看其他人有哪些製作方法的話，
+千萬不要錯過接下來的文章喔～</p>
+<p>Scratch其實還有許多意想不到的創作作品與功能，
+需要各位自行去摸索與創作拉～</p>
+<p>你了解Scratch了嗎？
+這邊做個優點整理：</p>
+<ul>
+<li>未寫過程式的人，也能輕鬆學習。</li>
+<li>可增強創造力，以及邏輯性。</li>
+<li>擁有40多種語言版本，不用擔心看不懂。</li>
+<li>網頁版與離線版，方便讓你在哪都可以創作。</li>
+<li>可查看與改編他人作品，讓自己與別人的作品更上一層。</li>
+<li>多種教程讓使用者更加了解各個功能。</li>
+<li>多樣素材免費供使用者使用。</li>
+<li>方便工具，協助創作角色與匯入匯出專案。</li>
+</ul>
+<p>有對Scratch的其他想法歡迎在下方留言喔～
+也能分享一下當你想到Scratch的作品時，
+你會有什麼樣的想法呦！</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/scratch/">Scratch</a>
+        
+            <a href="/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/">程式語言</a>
+        
+            <a href="/tags/%E5%86%B0%E5%B3%B0will/">冰峰will</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "dereksth" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2022 冒險者基地
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.11.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目錄</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#前言">前言</a></li>
+    <li><a href="#scratch是什麼有哪些特色">Scratch是什麼？有哪些特色？</a></li>
+    <li><a href="#從scratch中能增強思考能力創造力">從Scratch中能增強思考能力？創造力？</a></li>
+    <li><a href="#scratch不斷進步與改善的功能你知道哪些">Scratch不斷進步與改善的功能，你知道哪些?</a>
+      <ol>
+        <li><a href="#函式">函式</a></li>
+        <li><a href="#角色分身">角色分身</a></li>
+        <li><a href="#清單陣列">清單（陣列）</a></li>
+        <li><a href="#網頁版與離線版">網頁版與離線版</a></li>
+        <li><a href="#更多的教學及資源">更多的教學及資源</a></li>
+        <li><a href="#更多擴充功能">更多擴充功能</a></li>
+      </ol>
+    </li>
+    <li><a href="#scratch這麼簡單還需要書嗎">Scratch這麼簡單，還需要書嗎？</a></li>
+    <li><a href="#了解scratch的相關資料後有近一步的理解嗎">了解Scratch的相關資料後，有近一步的理解嗎?</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+
+<iframe src="https://www.books.com.tw/sticker/book66/" width="175" height="228" frameborder="1" scrolling="no" marginwidth="0" marginwidth="0" allowtransparency="true"></iframe>
+<iframe height="300" frameborder="0" width="175" scrolling="no" marginwidth="0" src="https://www.books.com.tw/sticker/getSticker/home"></iframe>
+　 
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
